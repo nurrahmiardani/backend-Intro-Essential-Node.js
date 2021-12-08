@@ -1,0 +1,15 @@
+1. Mohon jelaskan apa itu Node.js? Apa perbedannya dengan JavaScript?
+	Node js merupakan platform untuk menjalankan kode JavaScript pada sisi server, node js berfungsi untuk mengeksekuis kode javascript sebelum halaman website ditampilakn di server
+	Sedangkan javascript sendiri merupakan bahasa pemrograman yang sering digunakan berdampingan dengan html dan css. java script sendiri berfungsi untuk memberikan interaksi-interaksi web kepada para penggunanya
+2. Mohon jelaskan arsitektur dari Node.js?
+	Node js memiliki 2 komponen utama yaitu engine JavaScript V8 Google dan Libuv Library. Node js juga menggunakan dua design pattern yaitu object pool dan facade.
+	Engine V8 adalah milik Google yang dibuat menggunakan bahasa pemrograman C++. menggunakan komponen ini input yang beruapa kode JavaScript dapat di compile menjadi kode dalam tingkat assembly
+	libuv library yang mengelola operasi asynchorounous (input/output) di node js dan main event loop
+3. Ape perbedaan antara Built-in Module, External Module, dan Custom Module pada Node.js?
+	Built in Module adalah modul yang sudah secara default ada di dalam node js tanpa kita menginstallnya namun unutk penggunaannya diharuskan import dulu menggunakan fungsi require()
+	External Module adalah modul yang sebelum penggunaannya kita harus menginstalnnya secara manual
+	Custom Module adalah modul yang kita definisikan sendiri untuk suatu project tertentu
+4. Sebutkan salah satu contoh dari Built-in Module, External Module, dan Custom Module pada Node.js?
+	Built in Module : http, url
+	External Module : nodemon 
+	Custom Module : kita bisa membuat (mendifinisikan) suatu modul di file tertentu dan bisa secara langsung mengimport file tersebut untuk dijadikan module pada projek kita
